@@ -6,7 +6,7 @@ n = gets.chomp.to_i
     mystring = gets.chomp
     even = ""
     odd = ""
-    (0..mystring.length - 1).each do |i|
+    (0...mystring.length).each do |i|
         if i.even?
             even += mystring[i]
         else
