@@ -12,5 +12,5 @@ I have decided to include the terribly linted and very questionable HackerRank c
 However it should be noted that the JavaScript solutions, at least in Unix environment, require their input to be passed via piping rather than through standard input.
 Example:
 ```
-8\nHacker\nRank | node 06.js
+echo "8\nHacker\nRank" | node 06.js
 ```
